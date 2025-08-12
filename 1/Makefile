@@ -1,5 +1,5 @@
 CXX=c++
-CFLAGS=-std=c++17 -Wall -Wextra -Werror
+CFLAGS=-std=c++17 -Wall -Wextra -Werror -I../utility
 NAME=1
 
 SRCS=1.cpp
