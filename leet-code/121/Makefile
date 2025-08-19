@@ -1,8 +1,8 @@
 CXX=c++
-CFLAGS=-std=c++17 -Wall -Wextra -Werror -I../utility
-NAME=1
+CFLAGS=-std=c++17 -Wall -Wextra -Werror -I../../utility
+NAME=121
 
-SRCS=1.cpp
+SRCS=121.cpp
 OBJS=$(SRCS:.cpp=.o)
 
 $(NAME): $(OBJS)
